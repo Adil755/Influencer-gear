@@ -71,7 +71,7 @@ a {
 }
 
 .top-banner-img:hover {
-    transform: scale(1.07);
+    transform: scale(1.07) rotate(10deg);
     transition-duration: 600ms;
 }
 
