@@ -174,3 +174,37 @@ hr {
     color: #787885;
     width: 70%;
 }
+
+.see-more {
+    text-align: right;
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.see-more span i {
+    margin-left: 8px;
+}
+
+footer {
+    background: #0A0826;
+    min-height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.copyright {
+    color: #D9DBE1;
+    text-align: center;
+}
