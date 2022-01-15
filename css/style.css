@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 a {
@@ -216,6 +217,7 @@ footer {
     justify-content: center;
     gap: 16px;
     margin-top: 20px;
+    padding-bottom: 30px;
 }
 
 .social a {
@@ -228,4 +230,36 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.lens {
+    display: flex;
+    margin: 60px 0;
+}
+
+.lens-text {
+    width: 570px;
+    padding-right: 20px;
+}
+
+.lens-text h1 {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.lens-img {
+    width: 570px;
+    padding-left: 20px;
+}
+
+.lens-img img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 600ms;
+    overflow: hidden;
+}
+
+.lens-img img:hover {
+    transform: scale(1.05);
+    transition: 600ms;
 }
