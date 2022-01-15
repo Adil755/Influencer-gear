@@ -462,7 +462,7 @@ footer {
 
 }
 
-/* Medium devices (landscape tablets, 769px and up to 1024px) */
+/* Medium devices (landscape tablets, 769px  to 1024px) */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
 
     .partner-logo {
