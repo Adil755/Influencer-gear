@@ -6,6 +6,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -50,6 +54,7 @@ body {
     color: white;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .btn .btn-icon {
